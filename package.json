@@ -1,0 +1,27 @@
+{
+  "name": "anime-code",
+  "displayName": "anime-code",
+  "publisher": "ViniciusDev26",
+  "description": "",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViniciusDev26/Anime-Code?tab=readme-ov-file"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Anime Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Anime Code-color-theme.json"
+      }
+    ]
+  }
+}
