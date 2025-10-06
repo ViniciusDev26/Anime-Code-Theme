@@ -1,10 +1,18 @@
 {
   "name": "anime-code",
-  "displayName": "anime-code",
+  "displayName": "Anime Code Theme",
   "publisher": "ViniciusDev26",
-  "description": "",
+  "description": "Um tema dark inspirado em cores de anime com paleta pastel confortável para longas sessões de desenvolvimento",
   "version": "1.0.0",
   "license": "MIT",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "anime",
+    "pastel",
+    "purple",
+    "pink"
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -13,7 +21,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ViniciusDev26/Anime-Code?tab=readme-ov-file"
+    "url": "https://github.com/ViniciusDev26/Anime-Code"
+  },
+  "bugs": {
+    "url": "https://github.com/ViniciusDev26/Anime-Code/issues"
+  },
+  "homepage": "https://github.com/ViniciusDev26/Anime-Code#readme",
+  "galleryBanner": {
+    "color": "#1a1625",
+    "theme": "dark"
   },
   "contributes": {
     "themes": [
@@ -23,5 +39,9 @@
         "path": "./themes/Anime Code-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
