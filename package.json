@@ -3,7 +3,7 @@
   "displayName": "anime-code",
   "publisher": "ViniciusDev26",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
